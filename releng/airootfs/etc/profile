@@ -1,0 +1,4 @@
+if [ -x /usr/bin/xdg-user-dirs-update ]; then
+    xdg-user-dirs-update
+fi
+[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
