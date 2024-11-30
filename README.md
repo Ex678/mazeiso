@@ -41,7 +41,7 @@ sudo pacman -S archiso
    cd mazeiso
    ```
 
-2. Build the ISO:
+2. Build the ISO in the parent directory of the `releng` directory :
    ```bash
    sudo mkarchiso -v -w /path/to/your/working-directory  -o /path/to/your/working-directory/out
    ```
